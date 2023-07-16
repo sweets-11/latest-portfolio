@@ -10,7 +10,7 @@ const Subscribe = () => {
     <>
       <Box width="100%" margin="140px auto 0" textAlign="center">
         <Typography fontFamily="roboto" variant="h2">Get In Touch</Typography>
-        <Box  display="flex" justifyContent="space-between" alignItems="center" marginTop="50px">
+        <Box  display="flex" justifyContent="space-between" alignItems="center" marginTop="50px" sx={{flexDirection:{xs:"column", sm:"column", md:"row", lg:"row"}}}>  
         <Typography fontFamily="roboto" variant="h4">
           <MailIcon fontSize="large" /> aniketjain2018@gmail.com
         </Typography>
