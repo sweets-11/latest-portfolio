@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-i: #8d86b5;
+  --clr-ii: #90a0f2;
+}
+
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(45deg, var(--clr-i), var(--clr-ii));
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin: 10px;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.274));
+  cursor: pointer;
+  transition: scale 0.2s;
+
+  &:hover {
+    scale: 1.06;
+  }
+
+  img {
+    height: 40px;
+  }
+
+  h1 {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    font-family: raleway;
+  }
+}
+
+@media (max-width: 600px) {
+  .social {
+    width: 150px;
+    border-radius: 100px;
+
+    img {
+      height: 35px;
+    }
+    h1 {
+      font-size: 16px;
+    }
+  }
+}
+
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: roboto;
+  background-color: #cecece;
+  background: url(./assets/bg2.jpg);
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+
+    .page {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      min-height: 80vh;
+      width: min(70%, 70%);
+    }
+
+    .socials-wrapper {
+      position: relative;
+      width: 100%;
+      display: flex;
+      margin-top: 50px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+
+      .quick-links {
+        font-weight: 500;
+        font-size: 28px;
+      }
+
+      .socials {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .App {
+    main {
+      padding: 0 10px;
+
+      .page {
+        width: 90%;
+        max-width: 90%;
+        padding: 60px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .App {
+    main {
+      padding: 0 10px;
+
+      .page {
+        width: 100%;
+        max-width: 100%;
+        padding: 60px 0;
+      }
+
+      .socials-wrapper {
+        padding: 0;
+      }
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(26, 26, 26);
+  border-radius: 100px;
+}
