@@ -40,8 +40,22 @@ const About = () => {
             Bachelor of BBA (Pursuing)
           </Typography>
           <Typography variant="h4" marginTop="7px" fontFamily="roboto">
-            From Rukmadevi Pannalal Laddha Maheshwari College (Indore, Madhya Pradesh)
+            From Rukmadevi Pannalal Laddha Maheshwari College (Indore, Madhya
+            Pradesh)
           </Typography>
+          <Box marginTop="10px">
+            <Typography variant="h3" fontFamily="roboto">
+              12th Boards
+            </Typography>
+            <Box display="flex" justifyContent="space-between" alignItems="center">
+            <Typography variant="h4" marginTop="7px" fontFamily="roboto">
+              Sarafa Vidya Niketan (Indore, Madhya Pradesh)
+            </Typography>
+            <Typography variant="h5" fontFamily="roboto">
+              87.8%
+            </Typography>
+            </Box>
+          </Box>
         </Box>
 
         <InfoCard sectionTitle="Skills" />
@@ -102,8 +116,8 @@ const About = () => {
             designing, I pursue hobbies and activities that bring me joy and
             recharge my creativity. Whether it's exploring nature, practicing
             mindfulness through cycling, walking in garden so I can have some
-            fresh air, or playing games, I believe that a
-            well-balanced life enhances my productivity and overall well-being.
+            fresh air, or playing games, I believe that a well-balanced life
+            enhances my productivity and overall well-being.
           </Typography>
         </Box>
       </div>
