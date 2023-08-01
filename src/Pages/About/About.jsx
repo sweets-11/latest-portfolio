@@ -62,7 +62,7 @@ const About = () => {
 
         <Box>
           <Typography variant="h4" fontFamily="roboto">
-            HE SKILLS, TOOLS, AND TECHNOLOGIES I USE TO BRING YOUR PRODUCTS TO
+            THE SKILLS, TOOLS, AND TECHNOLOGIES I USE TO BRING YOUR PRODUCTS TO
             LIFE
           </Typography>
         </Box>
