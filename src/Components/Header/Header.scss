@@ -4,9 +4,9 @@ header {
   width: 100%;
   padding: 12px 30px;
   z-index: 10;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: url(../../assets/bg2.jpg);
   white-space: nowrap;
 
@@ -35,7 +35,6 @@ header {
   nav {
     flex: 5;
     white-space: nowrap;
-
 
     a {
       text-decoration: none;

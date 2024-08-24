@@ -1,8 +1,14 @@
 import Tag from "../Tag/Tag";
 import "./ProjectTemplate.scss";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const ProjectTemplate = ({ projectName, projectDesc, tags, img, link }) => {
+export const ProjectTemplate = ({
+  projectName,
+  projectDesc,
+  tags,
+  img,
+  link,
+}) => {
   return (
     <div className="project">
       <div className="project-details">
@@ -21,13 +27,11 @@ const ProjectTemplate = ({ projectName, projectDesc, tags, img, link }) => {
 
       <div className="project-images">
         <div className="img">
-          <Link target="_blank" to={link} >
-          <img src={img} alt="" />
+          <Link target="_blank" to={link}>
+            <img src={img} alt="" />
           </Link>
         </div>
       </div>
     </div>
   );
 };
-
-export default ProjectTemplate;

@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 import instagram from "./assets/instagram.png";
 import github from "./assets/github.png";
 import linkedin from "./assets/linkedin.png";
+import twitter from "./assets/X.png";
 import Subscribe from "./Pages/Home/Subscribe";
 import { Box } from "@mui/material";
 
@@ -82,20 +83,42 @@ function App() {
           <h2 className="quick-links">Quick links</h2>
 
           <div className="socials">
-            <Link to="https://github.com/sweets-11" target="_blank" style={{ textDecoration: 'none' }}>
+            <Link
+              to="https://github.com/sweets-11"
+              target="_blank"
+              style={{ textDecoration: "none" }}
+            >
               <Box className="social">
                 <img src={github} alt="" />
                 <h1>{"GitHub"}</h1>
               </Box>
             </Link>
 
-            <Link to="https://www.linkedin.com/in/aniket-jain-637025196/" target="_blank" style={{ textDecoration: 'none' }}>
+            <Link
+              to="https://www.linkedin.com/in/aniket-jain-637025196/"
+              target="_blank"
+              style={{ textDecoration: "none" }}
+            >
               <div className="social">
                 <img src={linkedin} alt="" />
                 <h1>{"Linkedin"}</h1>
               </div>
             </Link>
-            <Link to="https://www.instagram.com/aniketjain_1116/" target="_blank" style={{ textDecoration: 'none' }}>
+            <Link
+              to="https://x.com/AniketJ14856315"
+              target="_blank"
+              style={{ textDecoration: "none" }}
+            >
+              <div className="social">
+                <img src={twitter} alt="" />
+                <h1>{"Twitter"}</h1>
+              </div>
+            </Link>
+            <Link
+              to="https://www.instagram.com/aniketjain_1116/"
+              target="_blank"
+              style={{ textDecoration: "none" }}
+            >
               <div className="social">
                 <img src={instagram} alt="" />
                 <h1>{"Instagram"}</h1>

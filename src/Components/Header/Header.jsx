@@ -39,7 +39,7 @@ const Header = () => {
     <header>
       <nav>
         <ul>
-          <div  className="indicator"></div>
+          <div className="indicator"></div>
 
           <li className="active">
             <a href="#home">HOME</a>
