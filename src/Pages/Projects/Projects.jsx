@@ -53,7 +53,7 @@ const Projects = () => {
           projectDesc="FifthAvenueHub is a scalable e-commerce fashion platform created using the MERN stack with TypeScript and Sass. The platform features a dynamic dashboard developed with React, Redux, and Chart.js, providing clients with real-time insights into product management, order approval, and sales tracking. It integrates Stripe for seamless payment processing and did backend caching and lazy loading to significantly enhance API performance, resulting in an 80% faster response time. The project emphasizes creating high-quality, interactive user interfaces and efficient data visualization processes, reducing client reporting time by 30%."
           tags={tags.slice(0, 9)}
           img={fifthavenuehub}
-          link={"https://fifthavenuehub.com/"}
+          link={"https://fifthavenue.vercel.app/"}
         />
 
         <ProjectTemplate
