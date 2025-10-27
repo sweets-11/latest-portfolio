@@ -27,7 +27,7 @@ const Home = () => {
       </div>
 
     </div>
-<Link to="https://drive.google.com/drive/folders/17nmD_276P5QSFm-9xQCRANFjXCsAIl9U?usp=sharing" target="_blank">
+<Link to="https://drive.google.com/file/d/1XveW2uw6y0a0Eh8R0--S_H-i8SNNM_oh/view?usp=sharing" target="_blank">
 
 <button class="button-51" role="button">Download Resume</button>
 </Link>
