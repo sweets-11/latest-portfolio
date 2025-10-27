@@ -43,8 +43,7 @@ const About = () => {
           <Typography variant="h4" fontFamily="roboto">
             As a <strong>software engineer at Thoughtwin</strong>, I
             contributed to the development of scalable web applications,
-            following are the projects I created during my work with Technoid
-            LLC.
+            following are the projects I created during my work with Thoughtwin.
             <Typography variant="h4" marginTop="7px" fontFamily="roboto">
               <strong>FifthAvenueHub:</strong> Developed a luxury e-commerce
               platform using the MERN stack with TypeScript, featuring a dynamic
