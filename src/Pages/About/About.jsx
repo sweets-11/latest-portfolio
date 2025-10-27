@@ -41,7 +41,7 @@ const About = () => {
 
         <Box>
           <Typography variant="h4" fontFamily="roboto">
-            As a <strong>remote software engineer at Technoid LLC</strong>, I
+            As a <strong>software engineer at Thoughtwin</strong>, I
             contributed to the development of scalable web applications,
             following are the projects I created during my work with Technoid
             LLC.
