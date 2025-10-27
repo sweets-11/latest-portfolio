@@ -21,8 +21,8 @@ const About = () => {
 
         <Box>
           <Typography variant="h4" fontFamily="roboto">
-            Hi, I'm Aniket Jain, an experienced Remote MERN developer with over
-            a year of expertise in building robust and scalable web
+            Hi, I'm Aniket Jain, an experienced MERN developer with over
+            2.5 years of expertise in building robust and scalable web
             applications. My skill set encompasses advanced JavaScript
             techniques, TypeScript, and component-based architecture, with a
             strong focus on state management, responsive design, and scalable
